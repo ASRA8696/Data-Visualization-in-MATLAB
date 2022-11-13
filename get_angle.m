@@ -27,7 +27,7 @@ if ( rX ~= rY )
 end
 
 if ( cX ~= 1 || cY ~= 1)
-    fprintf('Only colume vectors are supported.\ncX = %d, cY = %d\n', cX, cY);
+    fprintf('Only column vectors are supported.\ncX = %d, cY = %d\n', cX, cY);
     a = 0;
     return;
 end
