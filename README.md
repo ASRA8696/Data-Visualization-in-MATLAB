@@ -1,4 +1,4 @@
-# Plot-simulation-data-in-MATLAB
+# Import-external-simulation-data-in-MATLAB
 
 Computational Fluid Dynamic [CFD] Simulations often result in huge data sets which needs to be visualized. Proprietary packages come with inbuilt post processing
 engine from which one can generate plots. However here we explore how we can port external simulation data to MATLAB to prepare a surface plot over a geometry
