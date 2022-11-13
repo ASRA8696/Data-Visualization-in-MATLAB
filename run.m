@@ -145,15 +145,6 @@ set(p,...
     'LineStyle', 'none');
 colorbar;
 
-% Plot three horizontal lines to indicate 0.5pi, pi and 1.5pi
-hold on;
-
-plot([ minX,maxX],[0.5, 0.5]);
-plot([ minX,maxX],[1.0, 1.0]);
-plot([ minX,maxX],[1.5, 1.5]);
-
-hold off;
-
 % Set the labels and title of the patch plot.
 xlabel('axial location (m)',...
     'Interpreter', 'Latex',...
